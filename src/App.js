@@ -10,7 +10,7 @@ const App = () => (
         <Table.HeaderCell>Header</Table.HeaderCell>
       </Table.Row>
     </Table.Header>
-
+ 
     <Table.Body>
       <Table.Row>
         <Table.Cell>
