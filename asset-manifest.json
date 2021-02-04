@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/nekores-1westfinance/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/nekores-1westfinance/static/js/main.a2de4414.chunk.js",
-    "main.js.map": "/nekores-1westfinance/static/js/main.a2de4414.chunk.js.map",
-    "runtime-main.js": "/nekores-1westfinance/static/js/runtime-main.94072cf2.js",
-    "runtime-main.js.map": "/nekores-1westfinance/static/js/runtime-main.94072cf2.js.map",
-    "static/js/2.00ddb650.chunk.js": "/nekores-1westfinance/static/js/2.00ddb650.chunk.js",
-    "static/js/2.00ddb650.chunk.js.map": "/nekores-1westfinance/static/js/2.00ddb650.chunk.js.map",
-    "static/js/3.8b2f7481.chunk.js": "/nekores-1westfinance/static/js/3.8b2f7481.chunk.js",
-    "static/js/3.8b2f7481.chunk.js.map": "/nekores-1westfinance/static/js/3.8b2f7481.chunk.js.map",
+    "main.css": "/nekores-1westfinance/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/nekores-1westfinance/static/js/main.28fbc5f3.chunk.js",
+    "main.js.map": "/nekores-1westfinance/static/js/main.28fbc5f3.chunk.js.map",
+    "runtime-main.js": "/nekores-1westfinance/static/js/runtime-main.55016c14.js",
+    "runtime-main.js.map": "/nekores-1westfinance/static/js/runtime-main.55016c14.js.map",
+    "static/css/2.29bc299a.chunk.css": "/nekores-1westfinance/static/css/2.29bc299a.chunk.css",
+    "static/js/2.fe47c5b8.chunk.js": "/nekores-1westfinance/static/js/2.fe47c5b8.chunk.js",
+    "static/js/2.fe47c5b8.chunk.js.map": "/nekores-1westfinance/static/js/2.fe47c5b8.chunk.js.map",
+    "static/js/3.3ce32860.chunk.js": "/nekores-1westfinance/static/js/3.3ce32860.chunk.js",
+    "static/js/3.3ce32860.chunk.js.map": "/nekores-1westfinance/static/js/3.3ce32860.chunk.js.map",
     "index.html": "/nekores-1westfinance/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/nekores-1westfinance/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.00ddb650.chunk.js.LICENSE.txt": "/nekores-1westfinance/static/js/2.00ddb650.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/nekores-1westfinance/static/media/logo.6ce24c58.svg"
+    "static/css/2.29bc299a.chunk.css.map": "/nekores-1westfinance/static/css/2.29bc299a.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/nekores-1westfinance/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.fe47c5b8.chunk.js.LICENSE.txt": "/nekores-1westfinance/static/js/2.fe47c5b8.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/nekores-1westfinance/static/media/outline-icons.ddae9b1b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.94072cf2.js",
-    "static/js/2.00ddb650.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.a2de4414.chunk.js"
+    "static/js/runtime-main.55016c14.js",
+    "static/css/2.29bc299a.chunk.css",
+    "static/js/2.fe47c5b8.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.28fbc5f3.chunk.js"
   ]
 }
