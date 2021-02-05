@@ -29,7 +29,7 @@ export default styled.div`
 
 export const Header = styled(Grid.Column)`
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 55px;
   position: relative;
   height: fit-content;
   justify-content: center;

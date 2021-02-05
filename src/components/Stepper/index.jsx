@@ -40,6 +40,23 @@ const Index = (props) => {
           <Grid.Column width="3"></Grid.Column>
         </Grid.Row>
       </Grid>
+
+      <Navigation>
+        {navigations.map((nav, index) => {
+          let back = navigations.length > 1 && index === 0;
+          return (
+            <Button
+              key={nav}
+              className={back ? "ghost" : ""}
+              onClick={() => {
+                back ? prev() : next();
+              }}
+            >
+              {nav}
+            </Button>
+          );
+        })}
+      </Navigation>
     </Stepper>
   );
 };
