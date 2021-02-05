@@ -43,9 +43,18 @@ export const Header = styled(Grid.Column)`
     }
     .phone {
       position: absolute;
-      width: 132px;
+      width: 140px;
       left: calc(100% + 90px);
       top: 7px;
+      span {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #26aae1;
+      }
       img {
         display: inline;
         margin-right: 10px;
