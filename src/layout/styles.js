@@ -70,7 +70,7 @@ export const Banner = styled.div`
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 33px;
     color: #000000;
     margin-top: 0;
