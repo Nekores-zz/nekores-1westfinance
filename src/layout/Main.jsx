@@ -1,7 +1,8 @@
 import React from "react";
-import Stepper from "../components/Stepper";
+
+import { Main } from "./styles";
 const Index = (props) => {
-  return <Stepper>{props.children}</Stepper>;
+  return <Main>{props.children}</Main>;
 };
 
 export default Index;

@@ -3,7 +3,7 @@ import { Grid } from "semantic-ui-react";
 
 export default styled.div`
   background-color: #eef7ff;
-  height: 100vh;
+  min-height: 100vh;
   .pa-0 {
     padding: 0;
   }
@@ -20,7 +20,10 @@ export default styled.div`
     padding-bottom: 40px !important;
   }
   .ma-0 {
-    margin: 0;
+    margin: 0 !important;
+  }
+  .mb-0 {
+    margin-bottom: 0 !important;
   }
   .mt-17 {
     margin-top: 17px;

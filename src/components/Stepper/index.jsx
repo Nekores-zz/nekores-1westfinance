@@ -27,13 +27,16 @@ const Index = (props) => {
       <Grid>
         <Grid.Row columns={3}>
           <Grid.Column width="3">
-            <Button disabled={step === 0} className="btn-back" onClick={next}>
+            <Button disabled={step === 0} className="btn-back" onClick={prev}>
               <Image src={arrow} /> back
             </Button>
           </Grid.Column>
           <Grid.Column width="10">
             <Head>
               <Progress percent={(step / 11) * 100} className="step-progress" />
+              <Header as="h3">
+                Paycheck Protection Program Borrower Application
+              </Header>
             </Head>
             <Steps>{Component ? <Component /> : ""}</Steps>
           </Grid.Column>

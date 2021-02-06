@@ -24,10 +24,22 @@ export const Head = styled.div`
     height: 10px;
     background: #07367b;
   }
+  .step-progress.ui.progress {
+  }
   .step-progress.ui.progress,
   .step-progress.ui.progress,
   .bar {
     border-radius: 3px;
+    margin-bottom: 25px;
+  }
+  h3.ui {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #07367b;
+    text-align: center;
   }
 `;
 export const Navigation = styled.div`
@@ -61,4 +73,6 @@ export const Navigation = styled.div`
 export const Steps = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 40px;
 `;

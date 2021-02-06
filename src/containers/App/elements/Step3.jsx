@@ -12,10 +12,12 @@ export const Index = () => {
       <Wrapper>
         <Form>
           <Form.Field className="form-group">
-            <label className="lg">What type of business?</label>
-            <input placeholder="First Name" />
+            <label>City *</label>
+            <input placeholder="" />
           </Form.Field>
+          <div class="error"></div>
           <Form.Field>
+            <label>State *</label>
             <Select
               compact
               options={options}
@@ -23,6 +25,13 @@ export const Index = () => {
               icon="angle down"
             />
           </Form.Field>
+          <div class="error"></div>
+
+          <Form.Field className="form-group mb-0">
+            <label>Zip *</label>
+            <input placeholder="" />
+          </Form.Field>
+          <div class="error"></div>
         </Form>
       </Wrapper>
     </Step1>
