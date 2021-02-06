@@ -11,15 +11,31 @@ export default styled.div`
       margin-right: 5px;
     }
     position: absolute;
-    background: transparent;
+    background: transparent !important;
     padding: 0;
     color: #666666;
   }
   .column {
     min-height: 0;
   }
+  h3.ui.heading {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #07367b;
+    text-align: center;
+  }
 `;
 export const Head = styled.div`
+  width: 70%;
+  max-width: 690px;
+  @media (max-width: 767px) {
+    width: 60%;
+  }
+
+  margin: 0 auto;
   .step-progress.ui.progress .bar {
     height: 10px;
     background: #07367b;
@@ -31,15 +47,6 @@ export const Head = styled.div`
   .bar {
     border-radius: 3px;
     margin-bottom: 25px;
-  }
-  h3.ui {
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
-    color: #07367b;
-    text-align: center;
   }
 `;
 export const Navigation = styled.div`

@@ -54,6 +54,7 @@ export default styled.div`
     margin-bottom: 20px;
   }
   .ui.form input,
+  .ui.form textarea,
   .selection.ui.dropdown {
     position: relative;
     height: 45px;
@@ -71,6 +72,7 @@ export default styled.div`
   }
   .menu .item .text,
   input,
+  textarea,
   .selection.ui.dropdown {
     font-family: Open Sans;
     font-style: normal;
@@ -105,21 +107,33 @@ export const Step1 = styled(Segment)`
     (props.ghost &&
       css`
         &.ui.segment {
-          width: 513px;
-          padding: 30px 70px 0px;
+          max-width: ${props.width || "704px"};
+          padding: 0 70px 0px;
           background: transparent;
           box-shadow: 0px 4px 6px transparent;
           border: none;
           border-radius: 10px;
+          @media (max-width: 767px) {
+            padding: 0 30px 0;
+          }
         }
       `) ||
     css`
       &.ui.segment {
-        width: 513px;
+        max-width: ${props.width || "513px"};
+        width: ${props.width || "513px"};
         padding: 30px 70px 70px;
+        847 376272
         background: #ffffff;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06);
         border-radius: 10px;
+        @media(max-width: 767px){
+            padding: 30px 30px 50px;
+        }
       }
     `}
+`;
+
+export const CheckboxField = styled.div`
+  margin-bottom: 20px;
 `;

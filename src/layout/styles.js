@@ -63,12 +63,24 @@ export const Header = styled(Grid.Column)`
         margin-right: 10px;
       }
     }
+    @media (max-width: 767px) {
+      text-align: center;
+      .phone {
+        width: 100%;
+        position: relative;
+        left: 0;
+      }
+    }
   }
 `;
 export const Banner = styled.div`
   background: #eef7ff;
   padding-top: 100px;
   padding-bottom: 100px;
+  @media (max-width: 767px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   h6.ui.header {
     font-family: Open Sans;
     font-style: normal;
@@ -89,7 +101,8 @@ export const Banner = styled.div`
       display: inline;
       margin: 0 20px;
       padding: 0;
-      width: 162px;
+      max-width: 162px;
+      min-width: 20px;
     }
   }
 `;
@@ -109,9 +122,26 @@ export const Footer = styled.div`
   }
   .divider-spacing {
     margin-top: 40px;
+    @media (max-width: 767px) {
+      margin-top: 20px;
+    }
   }
   .navigation-menu {
     min-height: auto;
+  }
+  @media (max-width: 767px) {
+    .ui.menu:not(.vertical).navigation-menu {
+      min-height: auto;
+      width: fit-content;
+      text-align: left;
+
+      .right.menu {
+        display: block;
+        .item {
+          margin: 10px 0;
+        }
+      }
+    }
   }
   .social-icons {
     width: 100%;

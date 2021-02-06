@@ -6,7 +6,7 @@ const next = "Next";
 const prev = "Previous";
 const Index = (props) => {
   const { steps } = props;
-  const [step, changeStep] = useState(0);
+  const [step, changeStep] = useState(6);
 
   const prev = () => {
     if (step > 0) {
@@ -25,22 +25,21 @@ const Index = (props) => {
   return (
     <Stepper>
       <Grid>
-        <Grid.Row columns={3}>
-          <Grid.Column width="3">
+        <Grid.Row columns={1}>
+          <Grid.Column width="16">
             <Button disabled={step === 0} className="btn-back" onClick={prev}>
               <Image src={arrow} /> back
             </Button>
-          </Grid.Column>
-          <Grid.Column width="10">
             <Head>
               <Progress percent={(step / 11) * 100} className="step-progress" />
-              <Header as="h3">
-                Paycheck Protection Program Borrower Application
-              </Header>
             </Head>
+          </Grid.Column>
+          <Grid.Column width="16">
+            <Header as="h3" className="heading">
+              Paycheck Protection Program Borrower Application
+            </Header>
             <Steps>{Component ? <Component /> : ""}</Steps>
           </Grid.Column>
-          <Grid.Column width="3"></Grid.Column>
         </Grid.Row>
       </Grid>
 

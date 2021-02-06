@@ -6,6 +6,7 @@ import Step3 from "./elements/Step3";
 import Step4 from "./elements/Step4";
 import Step5 from "./elements/Step5";
 import Step6 from "./elements/Step6";
+import Step7 from "./elements/Step7";
 import Stepper from "../../components/Stepper";
 
 const App = (props) => {
@@ -33,6 +34,10 @@ const App = (props) => {
     {
       navigations: ["continue"],
       Component: () => <Step6 />,
+    },
+    {
+      navigations: ["Next page"],
+      Component: () => <Step7 />,
     },
   ];
   return (

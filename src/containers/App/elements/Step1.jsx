@@ -11,11 +11,8 @@ export const Index = () => {
     <Step1>
       <Wrapper>
         <Form>
-          <Form.Field className="form-group">
-            <label className="lg">What type of business?</label>
-            <input placeholder="First Name" />
-          </Form.Field>
           <Form.Field>
+            <label className="lg">What type of business?</label>
             <Select
               compact
               options={options}

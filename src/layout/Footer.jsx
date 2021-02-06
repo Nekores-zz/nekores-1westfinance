@@ -19,10 +19,24 @@ const Index = () => {
       <Container>
         <div>
           <Grid columns={2}>
-            <Grid.Column floated="left" width="4">
+            <Grid.Column
+              floated="left"
+              mobile="16"
+              width="4"
+              tablet="4"
+              widescreen="4"
+              largeScreen="4"
+            >
               <Image src={logo} />
             </Grid.Column>
-            <Grid.Column floated="left" width="12">
+            <Grid.Column
+              floated="left"
+              mobile="16"
+              width="12"
+              tablet="12"
+              widescreen="12"
+              largeScreen="12"
+            >
               <Menu secondary className="navigation-menu">
                 <Menu.Menu position="right">
                   {links.map((link) => (
