@@ -11,19 +11,19 @@ export const Index = () => {
             <label>Primary Contact*</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
 
           <Form.Field className="form-group">
             <label>Primary Email*</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
 
           <Form.Field className="form-group mb-0">
             <label>Number of Employees*</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
         </Form>
       </Wrapper>
     </Step1>

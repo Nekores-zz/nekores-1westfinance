@@ -80,6 +80,19 @@ export const Navigation = styled.div`
 export const Steps = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-bottom: 15px;
   margin-top: 40px;
+  h5.ui.header.title {
+    display: block;
+    width: 100%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    color: #333333;
+    text-align: center;
+  }
 `;

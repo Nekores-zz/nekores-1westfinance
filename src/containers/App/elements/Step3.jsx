@@ -15,7 +15,7 @@ export const Index = () => {
             <label>City *</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
           <Form.Field>
             <label>State *</label>
             <Select
@@ -25,13 +25,13 @@ export const Index = () => {
               icon="angle down"
             />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
 
           <Form.Field className="form-group mb-0">
             <label>Zip *</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
         </Form>
       </Wrapper>
     </Step1>

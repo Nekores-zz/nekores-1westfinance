@@ -1,18 +1,8 @@
 import React from "react";
 import { Banner } from "./styles";
-import {
-  Grid,
-  Container,
-  Image,
-  Menu,
-  Divider,
-  Icon,
-  Header,
-} from "semantic-ui-react";
+import { Grid, Container, Image, Header } from "semantic-ui-react";
 import one from "../assets/images/1.png";
 import two from "../assets/images/2.png";
-
-const links = ["Resources", "Company", "Contact Us", "About", "Legal"];
 
 const Index = () => {
   return (

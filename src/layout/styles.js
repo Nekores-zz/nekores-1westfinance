@@ -28,6 +28,18 @@ export default styled.div`
   .mt-17 {
     margin-top: 17px;
   }
+  .ml-20 {
+    margin-left: 20px;
+  }
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+  .mb-40 {
+    margin-bottom: 40px !important;
+  }
+  .cursor {
+    cursor: pointer !important;
+  }
 `;
 
 export const Header = styled(Grid.Column)`
@@ -77,6 +89,7 @@ export const Banner = styled.div`
   background: #eef7ff;
   padding-top: 100px;
   padding-bottom: 100px;
+  border-bottom: 1px solid #333333;
   @media (max-width: 767px) {
     padding-top: 50px;
     padding-bottom: 50px;

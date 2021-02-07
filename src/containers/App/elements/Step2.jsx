@@ -11,24 +11,24 @@ export const Index = () => {
             <label>Business Legal Name *?</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
           <Form.Field className="form-group">
             <label>DBA or Tradename</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
 
           <Form.Field className="form-group">
             <label>Street Address *</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
 
           <Form.Field className="form-group mb-0">
             <label> Suite Number</label>
             <input placeholder="" />
           </Form.Field>
-          <div class="error"></div>
+          <div className="error"></div>
         </Form>
       </Wrapper>
     </Step1>

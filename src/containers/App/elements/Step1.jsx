@@ -6,7 +6,8 @@ const options = [
   { key: "articles", text: "Articles", value: "articles" },
   { key: "products", text: "Products", value: "products" },
 ];
-export const Index = () => {
+export const Index = (props) => {
+  const { onChange, state, errors } = props;
   return (
     <Step1>
       <Wrapper>
@@ -16,9 +17,15 @@ export const Index = () => {
             <Select
               compact
               options={options}
-              defaultValue="articles"
+              defaultValue={state["businessType"]}
               icon="angle down"
+              onChange={(e, target) =>
+                onChange && onChange("businessType", target.value)
+              }
             />
+            {errors && errors.businessType && (
+              <span className="error">This field is required.</span>
+            )}
           </Form.Field>
         </Form>
       </Wrapper>

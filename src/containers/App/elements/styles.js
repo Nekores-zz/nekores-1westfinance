@@ -12,6 +12,9 @@ export default styled.div`
     padding-left: 26px;
     font-size: 18px;
   }
+  .check-label {
+    font-size: 18px;
+  }
   .ui.checkbox label:after {
     top: 3px;
     background: #07367b;
@@ -25,6 +28,7 @@ export default styled.div`
   .ui.checkbox label:before {
     top: 3px;
     border-color: #07367b;
+    background-color: transparent;
   }
   .ui.form label {
     font-family: Open Sans;
@@ -33,6 +37,10 @@ export default styled.div`
     font-size: 16px;
     line-height: 20px;
     color: #07367b;
+    img.ui.image {
+      display: inline;
+      margin-right: 10px;
+    }
   }
   .ui.form label.lg {
     font-family: Open Sans;
@@ -100,6 +108,39 @@ export default styled.div`
     color: #e10000;
     margin-top: 4px;
   }
+  button.ui.fileUpload {
+    width: 193px;
+    height: 45px;
+    left: 483px;
+    top: 505px;
+    background: #eef7ff;
+    border: 1px solid #dddada;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  .form-group .fileLable {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    color: #999999;
+    margin-left: 20px;
+    text-transform: capitalize;
+  }
+  .fileInput {
+    display: none !important;
+  }
+  h4.ui.header {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: #333333;
+    margin-bottom: 0;
+    text-align: center;
+  }
 `;
 
 export const Step1 = styled(Segment)`
@@ -107,6 +148,7 @@ export const Step1 = styled(Segment)`
     (props.ghost &&
       css`
         &.ui.segment {
+          width: ${props.width || "704px"};
           max-width: ${props.width || "704px"};
           padding: 0 70px 0px;
           background: transparent;
@@ -120,7 +162,7 @@ export const Step1 = styled(Segment)`
       `) ||
     css`
       &.ui.segment {
-        max-width: ${props.width || "513px"};
+        max-width: ${props.maxWidth || "513px"};
         width: ${props.width || "513px"};
         padding: 30px 70px 70px;
         847 376272
