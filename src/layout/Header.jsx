@@ -11,7 +11,9 @@ const Index = () => {
         <Image src={logo} />
         <div className="phone">
           <Image src={phone} />
-          <span>(888) 881-9378</span>
+          <a href="#">
+            <span>(888) 881-9378</span>
+          </a>
         </div>
       </div>
     </Header>

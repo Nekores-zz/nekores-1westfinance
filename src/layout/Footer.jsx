@@ -40,7 +40,11 @@ const Index = () => {
               <Menu secondary className="navigation-menu">
                 <Menu.Menu position="right">
                   {links.map((link) => (
-                    <Menu.Item name={link} key={link} />
+                    <Menu.Item
+                      name={link}
+                      key={link}
+                      onClick={() => alert("Link")}
+                    />
                   ))}
                 </Menu.Menu>
               </Menu>
@@ -79,9 +83,9 @@ const Index = () => {
           <div className="social-icons">
             <Divider horizontal>
               <Header as="h4">
-                <Icon name="twitter" />
-                <Icon name="facebook f" />
-                <Icon name="instagram" />
+                <Icon name="twitter" onClick={() => alert("link")} />
+                <Icon name="facebook f" onClick={() => alert("link")} />
+                <Icon name="instagram" onClick={() => alert("link")} />
               </Header>
             </Divider>
           </div>

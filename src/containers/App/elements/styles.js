@@ -35,8 +35,9 @@ export default styled.div`
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24.51px;
     color: #07367b;
+    margin-bottom: 10px;
     img.ui.image {
       display: inline;
       margin-right: 10px;
